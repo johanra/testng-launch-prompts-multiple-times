@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MUSE Integration Tests" parallel="classes" thread-count="2">
+    <!--
+    vm params needed: 
+    -->
+  <test verbose="2" name="com.mycompany" annotations="JDK">
+    <packages>
+      <package name="com.mycompany.*"/>
+    </packages>
+  </test>
+</suite>
